@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Simulación de Formas Geométricas - Prueba Técnica
+Este proyecto es una prueba técnica solicitada como parte de un proceso de selección para el puesto de Programador Front End. La simulación desarrollada consiste en una serie de formas geométricas (cuadrados, círculos, triángulos, etc.) que caen desde la parte superior de la pantalla debido al efecto de la gravedad y reaccionan al clic del usuario.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Descripción del Proyecto
+En esta simulación:
 
-## Available Scripts
+Las formas geométricas caen de manera aleatoria desde la parte superior de la pantalla.
+Las formas se detienen al llegar al "suelo" (parte inferior de la pantalla).
+Cuando el usuario hace clic sobre una forma y mantiene presionado el botón del mouse, la forma aumenta su velocidad hacia arriba en función del tiempo que se mantenga el clic. Luego, cae nuevamente bajo el efecto de la gravedad.
+Las formas tienen diferentes colores asignados aleatoriamente.
+# Tecnologías Utilizadas
+Para la realización de este proyecto, se utilizó la siguiente tecnología:
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## `React.js:` Para la estructura y lógica de la interfaz de usuario.
+## `p5.js:` Para la implementación de la simulación gráfica y la manipulación de las formas geométricas.
+## `JavaScript (ES6+):` Para la lógica del comportamiento de las formas y el manejo de eventos.
+# En el directorio del proyecto, puedes ejecutar:
+## `npm start`
+Ejecuta la aplicación en modo de desarrollo.
+Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
