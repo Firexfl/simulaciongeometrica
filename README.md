@@ -11,10 +11,11 @@ Las formas tienen diferentes colores asignados aleatoriamente.
 # Tecnologías Utilizadas
 Para la realización de este proyecto, se utilizó la siguiente tecnología:
 
-## `React.js:` Para la estructura y lógica de la interfaz de usuario.
-## `p5.js:` Para la implementación de la simulación gráfica y la manipulación de las formas geométricas.
-## `JavaScript (ES6+):` Para la lógica del comportamiento de las formas y el manejo de eventos.
-# En el directorio del proyecto, puedes ejecutar:
-## `npm start`
-Ejecuta la aplicación en modo de desarrollo.
-Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
+`React.js:` 
+Para la estructura y lógica de la interfaz de usuario.
+
+`p5.js:` 
+Para la implementación de la simulación gráfica y la manipulación de las formas geométricas.
+
+`JavaScript:` 
+Para la lógica del comportamiento de las formas y el manejo de eventos.
